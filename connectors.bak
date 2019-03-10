@@ -1,0 +1,229 @@
+EESchema Schematic File Version 4
+LIBS:WReactor2000-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L ET60T-02-24-02-X-RTX-GP:ET60T-02-24-02-X-RTX-GP U?
+U 1 1 5C84967C
+P 4650 2500
+AR Path="/5C84967C" Ref="U?"  Part="1" 
+AR Path="/5C848C6C/5C84967C" Ref="U?"  Part="1" 
+F 0 "U?" H 5100 2767 50  0000 C CNN
+F 1 "ET60T-02-24-02-X-RTX-GP" H 5100 2676 50  0000 C CNN
+F 2 "Exodus_Connectors:ET60T-02-24-02-X-RTX-GP-HS" H 4650 2500 50  0001 L BNN
+F 3 "Samtec" H 4650 2500 50  0001 L BNN
+F 4 "ET60T-02-24-02-L-RT1-GP" H 4650 2500 50  0001 L BNN "Field4"
+F 5 "7.24 USD" H 4650 2500 50  0001 L BNN "Field5"
+F 6 "Unavailable" H 4650 2500 50  0001 L BNN "Field6"
+F 7 "None" H 4650 2500 50  0001 L BNN "Field7"
+F 8 "Et60t Right Angle Plug Power Ass" H 4650 2500 50  0001 L BNN "Field8"
+	1    4650 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L ET60T-02-24-02-X-RTX-GP:ET60T-02-24-02-X-RTX-GP U?
+U 2 1 5C84968B
+P 2850 2500
+AR Path="/5C84968B" Ref="U?"  Part="2" 
+AR Path="/5C848C6C/5C84968B" Ref="U?"  Part="2" 
+F 0 "U?" H 3300 2767 50  0000 C CNN
+F 1 "ET60T-02-24-02-X-RTX-GP" H 3300 2676 50  0000 C CNN
+F 2 "Exodus_Connectors:ET60T-02-24-02-X-RTX-GP-HS" H 2850 2500 50  0001 L BNN
+F 3 "Samtec" H 2850 2500 50  0001 L BNN
+F 4 "ET60T-02-24-02-L-RT1-GP" H 2850 2500 50  0001 L BNN "Field4"
+F 5 "7.24 USD" H 2850 2500 50  0001 L BNN "Field5"
+F 6 "Unavailable" H 2850 2500 50  0001 L BNN "Field6"
+F 7 "None" H 2850 2500 50  0001 L BNN "Field7"
+F 8 "Et60t Right Angle Plug Power Ass" H 2850 2500 50  0001 L BNN "Field8"
+	2    2850 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 2500 2850 2600
+Wire Wire Line
+	2850 2600 2850 2700
+Connection ~ 2850 2600
+Wire Wire Line
+	2850 2700 2850 2800
+Connection ~ 2850 2700
+Wire Wire Line
+	2850 2800 2850 2900
+Connection ~ 2850 2800
+Wire Wire Line
+	3750 2900 3750 2800
+Wire Wire Line
+	3750 2800 3750 2700
+Connection ~ 3750 2800
+Wire Wire Line
+	3750 2700 3750 2600
+Connection ~ 3750 2700
+Wire Wire Line
+	3750 2600 3750 2500
+Connection ~ 3750 2600
+Wire Wire Line
+	2850 2900 2850 2950
+Wire Wire Line
+	2850 2950 3750 2950
+Wire Wire Line
+	3750 2950 3750 2900
+Connection ~ 2850 2900
+Connection ~ 3750 2900
+Wire Wire Line
+	2850 3100 2850 3200
+Connection ~ 2850 3200
+Wire Wire Line
+	2850 3200 2850 3300
+Connection ~ 2850 3300
+Wire Wire Line
+	2850 3300 2850 3400
+Connection ~ 2850 3400
+Wire Wire Line
+	2850 3400 2850 3500
+Wire Wire Line
+	3750 3100 3750 3200
+Connection ~ 3750 3200
+Wire Wire Line
+	3750 3200 3750 3300
+Connection ~ 3750 3300
+Wire Wire Line
+	3750 3300 3750 3400
+Connection ~ 3750 3400
+Wire Wire Line
+	3750 3400 3750 3500
+Wire Wire Line
+	3750 3500 3750 3550
+Wire Wire Line
+	3750 3550 2850 3550
+Wire Wire Line
+	2850 3550 2850 3500
+Connection ~ 3750 3500
+Connection ~ 2850 3500
+Wire Wire Line
+	2850 3800 2850 3900
+Connection ~ 2850 3900
+Wire Wire Line
+	2850 3900 2850 4000
+Connection ~ 2850 4000
+Wire Wire Line
+	2850 4000 2850 4100
+Connection ~ 2850 4100
+Wire Wire Line
+	2850 4100 2850 4200
+Wire Wire Line
+	3750 3800 3750 3900
+Connection ~ 3750 3900
+Wire Wire Line
+	3750 3900 3750 4000
+Connection ~ 3750 4000
+Wire Wire Line
+	3750 4000 3750 4100
+Connection ~ 3750 4100
+Wire Wire Line
+	3750 4100 3750 4200
+Wire Wire Line
+	3750 4200 3750 4250
+Wire Wire Line
+	3750 4250 2850 4250
+Wire Wire Line
+	2850 4250 2850 4200
+Connection ~ 3750 4200
+Connection ~ 2850 4200
+Wire Wire Line
+	2850 4400 2850 4500
+Connection ~ 2850 4500
+Wire Wire Line
+	2850 4500 2850 4600
+Connection ~ 2850 4600
+Wire Wire Line
+	2850 4600 2850 4700
+Connection ~ 2850 4700
+Wire Wire Line
+	2850 4700 2850 4800
+Wire Wire Line
+	3750 4400 3750 4500
+Wire Wire Line
+	3750 4850 2850 4850
+Wire Wire Line
+	2850 4850 2850 4800
+Connection ~ 3750 4500
+Wire Wire Line
+	3750 4500 3750 4600
+Connection ~ 3750 4600
+Wire Wire Line
+	3750 4600 3750 4700
+Connection ~ 3750 4700
+Wire Wire Line
+	3750 4700 3750 4800
+Connection ~ 3750 4800
+Wire Wire Line
+	3750 4800 3750 4850
+Connection ~ 2850 4800
+$Comp
+L power:GND #PWR?
+U 1 1 5C84C275
+P 3750 4950
+F 0 "#PWR?" H 3750 4700 50  0001 C CNN
+F 1 "GND" H 3755 4777 50  0000 C CNN
+F 2 "" H 3750 4950 50  0001 C CNN
+F 3 "" H 3750 4950 50  0001 C CNN
+	1    3750 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3750 4950 3750 4850
+Connection ~ 3750 4850
+$Comp
+L power:+BATT #PWR?
+U 1 1 5C84CE81
+P 3900 3800
+F 0 "#PWR?" H 3900 3650 50  0001 C CNN
+F 1 "+BATT" H 3915 3973 50  0000 C CNN
+F 2 "" H 3900 3800 50  0001 C CNN
+F 3 "" H 3900 3800 50  0001 C CNN
+	1    3900 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3750 3800 3900 3800
+Connection ~ 3750 3800
+$Comp
+L power:+5V #PWR?
+U 1 1 5C84DB21
+P 3900 3100
+F 0 "#PWR?" H 3900 2950 50  0001 C CNN
+F 1 "+5V" H 3915 3273 50  0000 C CNN
+F 2 "" H 3900 3100 50  0001 C CNN
+F 3 "" H 3900 3100 50  0001 C CNN
+	1    3900 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3750 3100 3900 3100
+Connection ~ 3750 3100
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5C84F3D5
+P 3900 2500
+F 0 "#PWR?" H 3900 2350 50  0001 C CNN
+F 1 "+3.3V" H 3915 2673 50  0000 C CNN
+F 2 "" H 3900 2500 50  0001 C CNN
+F 3 "" H 3900 2500 50  0001 C CNN
+	1    3900 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3750 2500 3900 2500
+Connection ~ 3750 2500
+$EndSCHEMATC

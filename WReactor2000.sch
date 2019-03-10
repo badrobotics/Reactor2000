@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 3
+Sheet 1 4
 Title ""
 Date ""
 Rev ""
@@ -180,75 +180,6 @@ Wire Wire Line
 Connection ~ 3650 2300
 Wire Wire Line
 	3650 2300 4000 2300
-Wire Wire Line
-	1950 6150 1900 6150
-Wire Wire Line
-	1900 6150 1900 6200
-Wire Wire Line
-	1900 6200 2850 6200
-Wire Wire Line
-	1950 6900 2850 6900
-Wire Wire Line
-	2850 5950 3450 5950
-Wire Wire Line
-	2850 6550 3450 6550
-Wire Wire Line
-	3450 6200 4350 6200
-Wire Wire Line
-	3450 6900 4350 6900
-Wire Wire Line
-	3450 5500 4350 5500
-Wire Wire Line
-	3450 4900 4350 4900
-Wire Wire Line
-	4350 4450 4650 4450
-Wire Wire Line
-	4650 4450 4650 4350
-$Comp
-L power:+3V3 #PWR05
-U 1 1 5B6070AB
-P 4650 4350
-F 0 "#PWR05" H 4650 4200 50  0001 C CNN
-F 1 "+3V3" H 4665 4523 50  0000 C CNN
-F 2 "" H 4650 4350 50  0001 C CNN
-F 3 "" H 4650 4350 50  0001 C CNN
-	1    4650 4350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4350 5050 4650 5050
-Wire Wire Line
-	4650 5050 4650 4950
-$Comp
-L power:+5V #PWR06
-U 1 1 5B609B4C
-P 4650 4950
-F 0 "#PWR06" H 4650 4800 50  0001 C CNN
-F 1 "+5V" H 4665 5123 50  0000 C CNN
-F 2 "" H 4650 4950 50  0001 C CNN
-F 3 "" H 4650 4950 50  0001 C CNN
-	1    4650 4950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4350 5850 4600 5850
-Text GLabel 4600 5850 2    50   Input ~ 0
-12V_input
-Wire Wire Line
-	4350 6550 4600 6550
-Wire Wire Line
-	4600 6550 4600 6650
-$Comp
-L power:GND #PWR04
-U 1 1 5B614CF2
-P 4600 6650
-F 0 "#PWR04" H 4600 6400 50  0001 C CNN
-F 1 "GND" H 4605 6477 50  0000 C CNN
-F 2 "" H 4600 6650 50  0001 C CNN
-F 3 "" H 4600 6650 50  0001 C CNN
-	1    4600 6650
-	1    0    0    -1  
-$EndComp
 $Comp
 L Exodus_PowerRegulator:UWE-12-10 U3
 U 1 1 5C7799E5
@@ -303,22 +234,6 @@ Wire Wire Line
 Connection ~ 5750 2750
 Wire Wire Line
 	5750 2750 6250 2750
-Wire Wire Line
-	3450 4850 3450 4900
-Wire Wire Line
-	4350 4850 4350 4900
-Wire Wire Line
-	3450 5450 3450 5500
-Wire Wire Line
-	4350 5450 4350 5500
-Wire Wire Line
-	3450 6150 3450 6200
-Wire Wire Line
-	4350 6150 4350 6200
-Wire Wire Line
-	3450 6750 3450 6900
-Wire Wire Line
-	4350 6750 4350 6900
 $Comp
 L power:GND #PWR0101
 U 1 1 5C7BFC4D
@@ -373,42 +288,10 @@ F 3 "http://www.ti.com/lit/ds/symlink/tm4c1230h6pm.pdf" H 9350 4150 50  0001 C C
 	1    9350 4150
 	1    0    0    -1  
 $EndComp
-$Comp
-L ET60T-02-24-02-X-RTX-GP:ET60T-02-24-02-X-RTX-GP U2
-U 1 1 5C81611C
-P 1950 4450
-F 0 "U2" H 2400 4717 50  0000 C CNN
-F 1 "ET60T-02-24-02-X-RTX-GP" H 2400 4626 50  0000 C CNN
-F 2 "Exodus_Connectors:ET60T-02-24-02-X-RTX-GP-HS" H 1950 4450 50  0001 L BNN
-F 3 "Samtec" H 1950 4450 50  0001 L BNN
-F 4 "ET60T-02-24-02-L-RT1-GP" H 1950 4450 50  0001 L BNN "Field4"
-F 5 "7.24 USD" H 1950 4450 50  0001 L BNN "Field5"
-F 6 "Unavailable" H 1950 4450 50  0001 L BNN "Field6"
-F 7 "None" H 1950 4450 50  0001 L BNN "Field7"
-F 8 "Et60t Right Angle Plug Power Ass" H 1950 4450 50  0001 L BNN "Field8"
-	1    1950 4450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2850 6150 2850 6200
-Wire Wire Line
-	1950 6750 1950 6900
-Wire Wire Line
-	2850 6750 2850 6900
-$Comp
-L ET60T-02-24-02-X-RTX-GP:ET60T-02-24-02-X-RTX-GP U2
-U 2 1 5C81622F
-P 3450 4450
-F 0 "U2" H 3900 4717 50  0000 C CNN
-F 1 "ET60T-02-24-02-X-RTX-GP" H 3900 4626 50  0000 C CNN
-F 2 "Exodus_Connectors:ET60T-02-24-02-X-RTX-GP-HS" H 3450 4450 50  0001 L BNN
-F 3 "Samtec" H 3450 4450 50  0001 L BNN
-F 4 "ET60T-02-24-02-L-RT1-GP" H 3450 4450 50  0001 L BNN "Field4"
-F 5 "7.24 USD" H 3450 4450 50  0001 L BNN "Field5"
-F 6 "Unavailable" H 3450 4450 50  0001 L BNN "Field6"
-F 7 "None" H 3450 4450 50  0001 L BNN "Field7"
-F 8 "Et60t Right Angle Plug Power Ass" H 3450 4450 50  0001 L BNN "Field8"
-	2    3450 4450
-	1    0    0    -1  
-$EndComp
+$Sheet
+S 850  3650 1450 1150
+U 5C848C6C
+F0 "Connectors" 50
+F1 "connectors.sch" 50
+$EndSheet
 $EndSCHEMATC
